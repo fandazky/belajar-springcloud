@@ -3,5 +3,5 @@ nama: Test User
 spring:
     datasource:
         url: 'jdbc:mysql://localhost/belajar'
-        username: 'belajar'
+        username: 'fandazky'
         password: '{cipher}3285917425e08c85336a769a015422927cf426278d95e0eddc068d72eda37ce7%'
