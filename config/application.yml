@@ -22,7 +22,7 @@ spring:
 eureka:
     client:
         serviceUrl:
-            defaultZone: https://belajar-springcloud-discovery1.herokuapp.com/eureka/,https://belajar-springcloud-discovery2.herokuapp.com/eureka/
+            defaultZone: https://fandazky-cloud-discovery1.herokuapp.com/eureka/,https://fandazky-cloud-discovery2.herokuapp.com/eureka/
     instance:
         instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}
         nonSecurePort: 80
