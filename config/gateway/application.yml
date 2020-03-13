@@ -31,10 +31,10 @@ server:
 security:
     oauth2:
         client:
-            accessTokenUri: https://belajar-springcloud-auth.herokuapp.com/user/oauth/token
-            userAuthorizationUri: https://belajar-springcloud-auth.herokuapp.com/user/oauth/authorize
+            accessTokenUri: https://fandazky-cloud-auth.herokuapp.com/user/oauth/token
+            userAuthorizationUri: https://fandazky-cloud-auth.herokuapp.com/user/oauth/authorize
             clientId: onlinestore
             clientSecret: 123456
         resource:
             jwt:
-                keyUri: https://belajar-springcloud-auth.herokuapp.com/user/oauth/token_key
+                keyUri: https://fandazky-cloud-auth.herokuapp.com/user/oauth/token_key
