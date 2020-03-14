@@ -16,7 +16,7 @@ create table products (
   slug varchar(255) not null,
   name varchar(255) not null,
   thumbnail varchar(255) not null,
-  price number(19,2) not null,
+  price numeric(19,2) not null,
   primary key (id),
   unique (code),
   unique (slug),
